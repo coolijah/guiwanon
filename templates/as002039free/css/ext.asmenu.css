@@ -1,0 +1,152 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu 
+{
+    background-color: transparent;
+	background-image: none;
+	min-height: 20px;
+	float: left;
+	
+}
+
+#as-menu ul.as-menu
+{
+	float: left;
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 0px;
+	padding: 0px 10px;
+	display: block;
+	font-weight: normal;
+	line-height: auto normal;
+	height: auto;
+	letter-spacing: 0px;
+	color: #333;	
+	text-transform: uppercase;
+}
+
+#as-menu ul.as-menu > li > span.separator
+{
+	font-size: 14px;	
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	width: auto;
+	margin: 0;
+	padding: 25px 30px;
+	transition: background 0.3s ease 0.1s;
+	border-radius: 0;
+	border-right: 1px solid #000000;
+}
+
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li:hover
+{
+	transition: background 0.3s ease 0.1s;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#as-menu ul.as-menu > li:hover
+{
+	
+}
+
+#as-menu ul.as-menu > li.lastItem
+{
+	
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+	content: none;
+}
+
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li:hover > a,
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+	color: #f36600;
+}
+
+#as-menu ul.as-menu > li > a
+{
+	color: #e8e8e8;
+}
+
+#as-menu ul.as-menu > li.active a,
+#as-menu ul.as-menu > li.current a,
+#as-menu ul.as-menu > li.active a:hover,
+#as-menu ul.as-menu > li.current a:hover,
+#as-menu ul.as-menu > li.active:hover a,
+#as-menu ul.as-menu > li.current:hover a
+{
+	color: #f36600;
+	transition:  0.3s ease 0.1s;
+}
+
+#as-menu ul.as-menu > li:hover a
+{
+	color: #f36600;
+	transition:  0.3s ease 0.1s;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 73px;
+	z-index: 100;
+}
+
+#as-menu ul.as-menu ul
+{
+	background: url("../images/bg.content.png") repeat scroll 0 0 rgba(0, 0, 0, 0);	
+	border-radius: 0px;	
+	border: 1px solid #000;
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	margin: 0px;
+	color: #fff !important;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #f36600 !important;
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 162px !important;
+}
+
+/************************************** as superfish menu *************************************************/
+
